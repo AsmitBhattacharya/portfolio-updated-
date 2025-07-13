@@ -1,0 +1,112 @@
+.gradient-background {
+  background: linear-gradient(300deg, #1e71ee, #000000, #08034e);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 100vh;
+  display: flexbox;
+ 
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.portfolio{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.interests{
+   
+    display: flex;
+    color: #08034e;
+    justify-content: center;
+    
+    height: 60px;
+    margin-bottom: 0px;
+     background: linear-gradient(300deg, #40d3fc, #000000, #37187f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 10vh;
+  display: flexbox;
+  width: 100%;
+}
+.int{
+    font-size: 60px;
+    color: white;
+    font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.lead{
+    color: beige;
+}
+.dark{
+    background-color: #121212;
+    color: white;
+}
+.web{
+    background: linear-gradient(300deg, #1e71ee, #000000, #08034e);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 100vh;
+  display: flexbox;
+}
+.webpic{
+    display: flexbox;
+    margin-left: 100%;
+}
+.webtext{
+    color: white;
+     font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-size: 70px;
+  font-style: normal;
+}
+
+.videotext{
+     color: white;
+     font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-size: 70px;
+  font-style: normal;
+  display: flexbox;
+    margin-left: 100%;
+
+}
+.tech{
+     color:  white!important;
+     font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+.work{
+    color: white !important;
+     font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;
+}
+.foot{
+    background-color: #beef00;
+}
+.copyr{
+    color:hwb(327 6% 33%)!important;
+}
+.custom-btn {
+  background-color: #ff003c;
+  color: black;
+  text-shadow: #ff003c 0px 0px 5px;
+  border: 3px solid #D30302;
+  padding: 3px 7px;
+  font-size: 16px;
+  border-radius: 5px;
+}
